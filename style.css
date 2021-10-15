@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap');
+/*font-family: 'Kumbh Sans', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }  
+
+    
+    body{
+        background-color: hsl(185, 75%, 39%);
+        display: flex;
+        font-size: 16px;
+        height: 100%;
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-attachment: fixed;
+        background-position: right 50vw bottom 40vh, left 50vw top 50vh;
+        background-repeat: no-repeat;
+    }
+    .card{
+        box-shadow:2px 5px 50px 11px rgba(0,0,0,0.12) ;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 335px;
+        height: 375px;
+    
+    }
+    .header{
+        background-image: url("./images/bg-pattern-card.svg");
+        width: 100%;
+        height: 38%;
+        display: grid;
+        grid-template-columns:33.3% 33.3% 33.3%;
+        justify-items: center;
+        align-items: flex-end;
+    }
+    img{
+        grid-column: 2;
+        border: 5px solid white;
+        border-radius: 50%;
+        margin-bottom: -40%;
+        
+        
+    }
+    
+    .body{
+        
+        width: 100%;
+        height: 38%;
+        display: grid;
+        grid-template-columns:10% 80% 10%;
+        grid-template-rows: 70% 30%;
+        justify-items: center;
+        align-items: flex-end;
+    }
+    
+    
+    .victor{
+        display: flex;
+        grid-column: 2/2;
+        font-weight: 700;
+        font-size: 18px;
+        }
+    .age{
+        padding-left: 2px;
+        font-weight: 700;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 16px;
+    }
+    .london{
+        
+        grid-column: 2/2;
+        align-self: start;
+        font-size: 13px;
+        }
+    .footer{
+        border-top: 1px solid hsl(227, 10%, 46%, 0.25);
+        width: 100%;
+        height: 24%;
+        display: grid;
+        grid-template-columns:33.3% 33.3% 33.3%;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    span{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    p{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .f1>span{
+        padding-left: 11px;
+    }
+    .f2>p{
+        padding-left: 6px;
+    }
+    
+    
